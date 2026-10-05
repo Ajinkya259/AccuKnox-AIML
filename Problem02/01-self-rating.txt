@@ -1,0 +1,6 @@
+1. SELF RATING
+
+LLM            : A
+Deep Learning  : B
+AI             : A
+ML             : C

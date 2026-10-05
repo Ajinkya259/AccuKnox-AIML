@@ -27,7 +27,9 @@ https://github.com/Ajinkya259/Customer-Support-Agent (see `src/tarang/schema.sql
 
 ## Problem 02
 
-Written answers are in [`Problem02/answers.txt`](Problem02/answers.txt).
+1. [Self rating](Problem02/01-self-rating.txt)
+2. [LLM chatbot components](Problem02/02-llm-chatbot.txt)
+3. [Vector databases](Problem02/03-vector-databases.txt)
 
 ## Notes
 

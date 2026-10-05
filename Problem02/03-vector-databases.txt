@@ -1,28 +1,3 @@
-PROBLEM 02
-
-
-1. SELF RATING
-
-LLM            : A
-Deep Learning  : B
-AI             : A
-ML             : C
-
-
-2. KEY COMPONENTS OF AN LLM CHATBOT
-
-1.  UI: the place where users talk to the bot, could be a website, app, WhatsApp or even a call.
-2.  LLM provider: the model that actually genrates replies, like OpenAI, Anthropic or Llama.
-3.  System prompt: basic rules for the bot, how it should talk and what it shouldnt answer.
-4.  Knowledge (RAG): pulls the relevent company docs and passes them to the model.
-5.  Tools: so the bot can do things, like look up an order or raise a ticket.
-6.  Context and memory: what the bot keeps from earlier chats and about the user.
-7.  Guardrails: to stop wrong, unsafe or off-topic answers.
-8.  Rate limits and cost: keeping API calls and spend under control.
-9.  Tracing/observability: logs each step so when somthing breaks we can see why.
-10. Evaluation: regular testing to make sure answers don't get worse over time.
-
-
 3. VECTOR DATABASES
 
 What is it?
