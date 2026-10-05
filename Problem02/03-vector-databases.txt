@@ -1,9 +1,9 @@
 3. VECTOR DATABASES
 
 What is it?
-A vector database stores text as numbers (vectors) so we can search by meaning and not just by exact words.
+A vector database saves text as numbers (vectors). This lets us search by meaning, not only by exact words.
 
-e.g: "I forgot my password" and "how do I reset my login?" are worded diffrently but mean the same thing. In a vector DB both end up close to each other, so searching one finds the other.
+e.g: "I forgot my password" and "how do I reset my login?" use diffrent words but mean the same thing. A vector database knows they are similar, so searching one also finds the other.
 
 Common options
 - FAISS
@@ -17,7 +17,7 @@ My choice: Qdrant
 I am not using a made-up example. I am using a project I worked on.
 
 Project idea
-We wanted to make a search engine to find people through their personal websites and portfolios. We crawled their pages and saved their details and projects as embeddings. So if you search "someone who built a voice agent", it shows the right portfolios. We wanted everything to run locally on one small Mac Mini.
+We wanted to make a search engine to find people using their personal websites and portfolios. We read their pages and saved their details and projects as embeddings. So if you search "someone who built a voice agent", it shows the right people. We wanted everything to run on one small Mac Mini.
 
 Setup
 - Embedding model: Gemma (runs locally)
@@ -25,7 +25,7 @@ Setup
 - Server: Mac Mini
 
 Why Qdrant
-- We can run it on our own machine, so the data stays with us.
-- It is lightwieght, so it runs fine on a small Mac Mini.
-- We can save extra info with each item and filter results (e.g: by skill or city).
+- It runs on our own machine, so the data stays with us.
+- It is lightwieght, so it works well on a small Mac Mini.
+- We can save extra details with each item and filter results (e.g: by skill or city).
 - It is free, open source and fast.
