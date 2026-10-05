@@ -8,13 +8,6 @@ e.g: "I forgot my password" and "how do I reset my login?" are worded
 diffrently but mean the same thing. In a vector DB both end up close to each
 other, so searching one finds the other.
 
-How it works
-1. Break the documents into small chunks.
-2. Run each chunk through an embedding model to get its vector.
-3. Save the vectors with some extra info like date or category.
-4. When a question comes in, turn it into a vector too.
-5. Pick the vectors that are closest to it, those are the best matches.
-
 Common options
 - FAISS
 - Pinecone
