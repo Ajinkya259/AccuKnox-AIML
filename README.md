@@ -25,6 +25,10 @@ https://github.com/Ajinkya259/RAG-that-wont-lie
 **5. Most complex database code**
 https://github.com/Ajinkya259/Customer-Support-Agent (see `src/tarang/schema.sql`)
 
+## Problem 02
+
+Written answers are in [`Problem02/answers.md`](Problem02/answers.md).
+
 ## Notes
 
 - No API was given for tasks 1 and 2, so I used two free public ones that need no key.
