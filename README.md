@@ -4,14 +4,14 @@
 
 ```
 Problem01/
-├── 01-API-Data-Retrieval-and-Storage/
+├── 01-API-Storage/
 │   ├── task1_books.py
 │   ├── books.db
 │   └── books.html
-├── 02-Data-Processing-and-Visualization/
+├── 02-Visualization/
 │   ├── task2_scores.py
 │   └── scores_chart.png
-└── 03-CSV-Data-Import/
+└── 03-CSV-Import/
     ├── task3_users.py
     ├── users.csv
     └── users.db
@@ -34,7 +34,7 @@ pip install requests matplotlib
 Fetches a list of books from the Open Library API, stores the title, author, publication year, page count and ISBN in a SQLite database, reads them back from the database and displays them in the terminal and in an HTML page.
 
 ```bash
-cd Problem01/01-API-Data-Retrieval-and-Storage
+cd Problem01/01-API-Storage
 python3 task1_books.py
 ```
 
@@ -45,7 +45,7 @@ Output: `books.db`, `books.html` (opens in the browser automatically).
 Fetches 2,000 student records from the Sling Academy sample data API, calculates the average score of each subject and the overall average, and draws a bar chart.
 
 ```bash
-cd Problem01/02-Data-Processing-and-Visualization
+cd Problem01/02-Visualization
 python3 task2_scores.py
 ```
 
@@ -56,7 +56,7 @@ Output: `scores_chart.png` (the chart also opens in a window).
 Reads user records from `users.csv` (8 columns, 20 rows) and inserts the name, email and city of each user into a SQLite database.
 
 ```bash
-cd Problem01/03-CSV-Data-Import
+cd Problem01/03-CSV-Import
 python3 task3_users.py
 ```
 
