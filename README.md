@@ -1,13 +1,3 @@
-# AccuKnox AI/ML Assignment
-
-Install the two libraries used:
-
-```bash
-pip install requests matplotlib
-```
-
-Run each script from inside its own folder.
-
 ## Problem 01
 
 **1. API data retrieval and storage** (`01-API-Storage`)
