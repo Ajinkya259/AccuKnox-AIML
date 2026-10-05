@@ -11,16 +11,16 @@ ML             : C
 
 2. KEY COMPONENTS OF AN LLM CHATBOT
 
-1.  User interface: where the user chats with the bot (website, app, WhatsApp, phone).
-2.  LLM provider: the model that writes the answers (OpenAI, Anthropic, Llama).
-3.  System prompt: rules that tell the bot how to behave and what to answer.
-4.  Knowledge (RAG): finds the right company documents and gives them to the model.
-5.  Tools: lets the bot take actions, like checking an order or creating a ticket.
-6.  Context and memory: decides what past chat and user details the bot remembers.
-7.  Guardrails: stops unsafe, off-topic or made-up answers.
-8.  Rate limits and cost: controls how many requests are sent and how much they cost.
-9.  Tracing and observability: records every step, so problems can be found and fixed.
-10. Evaluation: tests the bot regularly to check its answers are still correct.
+1.  UI: the place where users talk to the bot, could be a website, app, WhatsApp or even a call.
+2.  LLM provider: the model that actually generates replies, like OpenAI, Anthropic or Llama.
+3.  System prompt: basic rules for the bot, how it should talk and what it shouldn't answer.
+4.  Knowledge (RAG): pulls the relevant company docs and passes them to the model.
+5.  Tools: so the bot can do things, like look up an order or raise a ticket.
+6.  Context and memory: what the bot keeps from earlier chats and about the user.
+7.  Guardrails: to stop wrong, unsafe or off-topic answers.
+8.  Rate limits and cost: keeping API calls and spend under control.
+9.  Tracing/observability: logs each step so when something breaks we can see why.
+10. Evaluation: regular testing to make sure answers don't get worse over time.
 
 
 3. VECTOR DATABASES
