@@ -2,4 +2,4 @@
 
 https://github.com/Ajinkya259/RAG-that-wont-lie
 
-A search and answer system over the full English Wikipedia (13.98 million passages). It runs fully on my own machine, with no cloud services. It uses FAISS and BM25 to find the right passages, and a local LLM (Qwen2.5) to write the answer. If the passages do not support an answer, it says so instead of making one up.
+A RAG system over all of English Wikipedia (13.98 million pasages). It runs fully on my own laptop, no cloud. It finds the right text and then a local LLM writes the answer. If it cant find a good answer, it says so insted of making one up.
