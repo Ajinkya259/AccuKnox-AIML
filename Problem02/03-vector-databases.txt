@@ -4,7 +4,7 @@ What is it?
 A vector database stores text as numbers (vectors) so we can search by meaning
 and not just by exact words.
 
-Example: "I forgot my password" and "how do I reset my login?" are worded
+e.g: "I forgot my password" and "how do I reset my login?" are worded
 diffrently but mean the same thing. In a vector DB both end up close to each
 other, so searching one finds the other.
 
