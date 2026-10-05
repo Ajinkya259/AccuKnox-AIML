@@ -16,11 +16,11 @@ How it works
 5. Pick the vectors that are closest to it, those are the best matches.
 
 Common options
-- FAISS    : very fast, but its a library, not a full database
-- Pinecone : managed cloud service, nothing to set up or host
-- Qdrant   : open source, can run on our own servers, good filtering
-- pgvector : adds vector search inside PostgreSQL
-- Chroma   : simple and easy, good for small projects
+- FAISS
+- Pinecone
+- Qdrant
+- pgvector
+- Chroma
 
 My choice
 Problem: a security team wants an assistant that finds old incidents similar to
