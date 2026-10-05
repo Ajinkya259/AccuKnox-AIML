@@ -9,11 +9,9 @@ Fetches student scores from the Sling Academy API, calculates the average of eac
 **3. CSV import** (`03-CSV-Import`)
 Reads users from `users.csv` and saves their name, email and city in SQLite.
 
-**4. Most complex Python code**
-https://github.com/Ajinkya259/RAG-that-wont-lie
+**4. Most complex Python code** ([`04-python-code.txt`](Problem01/04-python-code.txt))
 
-**5. Most complex database code**
-https://github.com/Ajinkya259/Customer-Support-Agent (see `src/tarang/schema.sql`)
+**5. Most complex database code** ([`05-database-code.txt`](Problem01/05-database-code.txt))
 
 ## Problem 02
 

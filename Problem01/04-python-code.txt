@@ -1,0 +1,5 @@
+4. MOST COMPLEX PYTHON CODE
+
+https://github.com/Ajinkya259/RAG-that-wont-lie
+
+A search and answer system over the full English Wikipedia (13.98 million passages). It runs fully on my own machine, with no cloud services. It uses FAISS and BM25 to find the right passages, and a local LLM (Qwen2.5) to write the answer. If the passages do not support an answer, it says so instead of making one up.
