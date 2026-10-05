@@ -1,12 +1,9 @@
 3. VECTOR DATABASES
 
 What is it?
-A vector database stores text as numbers (vectors) so we can search by meaning
-and not just by exact words.
+A vector database stores text as numbers (vectors) so we can search by meaning and not just by exact words.
 
-e.g: "I forgot my password" and "how do I reset my login?" are worded
-diffrently but mean the same thing. In a vector DB both end up close to each
-other, so searching one finds the other.
+e.g: "I forgot my password" and "how do I reset my login?" are worded diffrently but mean the same thing. In a vector DB both end up close to each other, so searching one finds the other.
 
 Common options
 - FAISS
@@ -16,9 +13,7 @@ Common options
 - Chroma
 
 My choice
-Problem: a security team wants an assistant that finds old incidents similar to
-a new alert. They should be able to filter by severity and date, and the data
-has to stay on the company's own servers.
+Problem: a security team wants an assistant that finds old incidents similar to a new alert. They should be able to filter by severity and date, and the data has to stay on the company's own servers.
 
 I would go with Qdrant because:
 - It can be self hosted, so sensitive data never leaves the company.
@@ -27,6 +22,4 @@ I would go with Qdrant because:
   things like CVE numbers and IP adresses.
 - It's fast and free when we host it ourselves.
 
-From my own work: I used Pinecone in a voice support agent, and FAISS with keyword
-search over 13.98 million Wikipedia passages, so I've seen why filtering and
-keyword matching are needed alongside plain vector search.
+From my own work: I used Pinecone in a voice support agent, and FAISS with keyword search over 13.98 million Wikipedia passages, so I've seen why filtering and keyword matching are needed alongside plain vector search.
