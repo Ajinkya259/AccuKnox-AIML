@@ -12,14 +12,20 @@ Common options
 - pgvector
 - Chroma
 
-My choice
-Problem: a security team wants an assistant that finds old incidents similar to a new alert. They should be able to filter by severity and date, and the data has to stay on the company's own servers.
+My choice: Qdrant
 
-I would go with Qdrant because:
-- It can be self hosted, so sensitive data never leaves the company.
-- It filters while searching, like "similar incidents, only critical, last 90 days".
-- It supports keyword search along with vector search, which matters for exact
-  things like CVE numbers and IP adresses.
-- It's fast and free when we host it ourselves.
+I am not using a made-up example. I am using a project I worked on.
 
-From my own work: I used Pinecone in a voice support agent, and FAISS with keyword search over 13.98 million Wikipedia passages, so I've seen why filtering and keyword matching are needed alongside plain vector search.
+Project idea
+We wanted to make a search engine to find people through their personal websites and portfolios. We crawled their pages and saved their details and projects as embeddings. So if you search "someone who built a voice agent", it shows the right portfolios. We wanted everything to run locally on one small Mac Mini.
+
+Setup
+- Embedding model: Gemma (runs locally)
+- Vector database: Qdrant (runs locally)
+- Server: Mac Mini
+
+Why Qdrant
+- We can run it on our own machine, so the data stays with us.
+- It is lightwieght, so it runs fine on a small Mac Mini.
+- We can save extra info with each item and filter results (e.g: by skill or city).
+- It is free, open source and fast.
