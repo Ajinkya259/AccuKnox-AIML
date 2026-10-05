@@ -6,7 +6,6 @@ A vector database saves text as numbers (vectors). This lets us search by meanin
 e.g: "I forgot my password" and "how do I reset my login?" use diffrent words but mean the same thing. A vector database knows they are similar, so searching one also finds the other.
 
 Common options
-- FAISS
 - Pinecone
 - Qdrant
 - pgvector
