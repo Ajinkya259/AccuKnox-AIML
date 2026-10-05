@@ -1,0 +1,21 @@
+id,name,email,phone,age,gender,city,signup_date
+1,Rahul Sharma,rahul.sharma@example.com,9800000001,25,Male,Pune,2024-01-15
+2,Priya Patel,priya.patel@example.com,9800000002,28,Female,Mumbai,2024-02-03
+3,Amit Kumar,amit.kumar@example.com,9800000003,32,Male,Delhi,2024-02-20
+4,Sneha Joshi,sneha.joshi@example.com,9800000004,24,Female,Pune,2024-03-11
+5,Vikram Singh,vikram.singh@example.com,9800000005,30,Male,Bengaluru,2024-03-27
+6,Anjali Desai,anjali.desai@example.com,9800000006,27,Female,Ahmedabad,2024-04-08
+7,Rohan Mehta,rohan.mehta@example.com,9800000007,35,Male,Mumbai,2024-04-19
+8,Kavya Nair,kavya.nair@example.com,9800000008,26,Female,Kochi,2024-05-02
+9,Arjun Reddy,arjun.reddy@example.com,9800000009,29,Male,Hyderabad,2024-05-21
+10,Neha Kulkarni,neha.kulkarni@example.com,9800000010,31,Female,Pune,2024-06-06
+11,Siddharth Rao,siddharth.rao@example.com,9800000011,33,Male,Chennai,2024-06-18
+12,Pooja Iyer,pooja.iyer@example.com,9800000012,23,Female,Chennai,2024-07-01
+13,Karan Malhotra,karan.malhotra@example.com,9800000013,36,Male,Delhi,2024-07-14
+14,Meera Pillai,meera.pillai@example.com,9800000014,29,Female,Kochi,2024-07-29
+15,Aditya Deshmukh,aditya.deshmukh@example.com,9800000015,27,Male,Nagpur,2024-08-10
+16,Ritu Agarwal,ritu.agarwal@example.com,9800000016,34,Female,Jaipur,2024-08-25
+17,Nikhil Bhat,nikhil.bhat@example.com,9800000017,25,Male,Bengaluru,2024-09-05
+18,Ishita Ghosh,ishita.ghosh@example.com,9800000018,30,Female,Kolkata,2024-09-19
+19,Manish Verma,manish.verma@example.com,9800000019,28,Male,Lucknow,2024-10-02
+20,Tanvi Shah,tanvi.shah@example.com,9800000020,26,Female,Surat,2024-10-16
