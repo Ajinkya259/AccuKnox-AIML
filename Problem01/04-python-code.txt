@@ -2,4 +2,4 @@
 
 https://github.com/Ajinkya259/RAG-that-wont-lie
 
-A RAG system over all of English Wikipedia (13.98 million pasages). It runs fully on my own laptop, no cloud. It finds the right text and then a local LLM writes the answer. If it cant find a good answer, it says so insted of making one up.
+A RAG system over all of English Wikipedia (13.98 million pasages). It runs fully on my own machine, no cloud. It finds the right text and then a local LLM writes the answer. If it cant find a good answer, it says so insted of making one up.
