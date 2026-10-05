@@ -1,0 +1,61 @@
+PROBLEM 02
+
+
+1. SELF RATING
+
+LLM            : B
+Deep Learning  : B
+AI             : B
+ML             : B
+
+
+2. KEY COMPONENTS OF AN LLM CHATBOT
+
+1.  User interface: where the user chats with the bot (website, app, WhatsApp, phone).
+2.  LLM provider: the model that writes the answers (OpenAI, Anthropic, Llama).
+3.  System prompt: rules that tell the bot how to behave and what to answer.
+4.  Knowledge (RAG): finds the right company documents and gives them to the model.
+5.  Tools: lets the bot take actions, like checking an order or creating a ticket.
+6.  Context and memory: decides what past chat and user details the bot remembers.
+7.  Guardrails: stops unsafe, off-topic or made-up answers.
+8.  Rate limits and cost: controls how many requests are sent and how much they cost.
+9.  Tracing and observability: records every step, so problems can be found and fixed.
+10. Evaluation: tests the bot regularly to check its answers are still correct.
+
+
+3. VECTOR DATABASES
+
+What is it?
+A vector database stores text as lists of numbers (vectors) and finds items that
+are similar in meaning, not just exact word matches.
+
+For example, "I forgot my password" and "How do I reset my login?" use different
+words but mean the same thing. A vector database knows they are close.
+
+How it works
+1. Split documents into small chunks.
+2. Convert each chunk into a vector using an embedding model.
+3. Store the vectors along with details like date and category.
+4. Convert the user's question into a vector.
+5. Return the closest matches.
+
+Common options
+- FAISS    : fast search library, not a full database
+- Pinecone : managed cloud service, nothing to set up
+- Qdrant   : open source, can run on your own servers, strong filtering
+- pgvector : adds vector search to PostgreSQL
+- Chroma   : simple, good for small projects
+
+My choice
+Problem: a security team wants an assistant that finds past incidents similar to
+a new alert. Results must be filtered by severity and date, and the data must stay
+on the company's own servers.
+
+I would choose Qdrant, because:
+- Data stays in-house: it can run on the company's own servers.
+- Filtering: it can search for "similar incidents, critical only, from the last 90 days".
+- Keyword and meaning search: it also finds exact terms like CVE numbers and IP addresses.
+- Fast and free to self-host.
+
+From my work: I have used Pinecone in a voice support agent, and FAISS with keyword
+search over 13.98 million Wikipedia passages.

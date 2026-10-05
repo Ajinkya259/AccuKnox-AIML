@@ -27,7 +27,7 @@ https://github.com/Ajinkya259/Customer-Support-Agent (see `src/tarang/schema.sql
 
 ## Problem 02
 
-Written answers are in [`Problem02/answers.md`](Problem02/answers.md).
+Written answers are in [`Problem02/answers.txt`](Problem02/answers.txt).
 
 ## Notes
 
