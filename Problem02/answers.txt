@@ -3,10 +3,10 @@ PROBLEM 02
 
 1. SELF RATING
 
-LLM            : B
+LLM            : A
 Deep Learning  : B
-AI             : B
-ML             : B
+AI             : A
+ML             : C
 
 
 2. KEY COMPONENTS OF AN LLM CHATBOT
