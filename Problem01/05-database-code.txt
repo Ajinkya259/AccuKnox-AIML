@@ -2,10 +2,6 @@
 
 https://github.com/Ajinkya259/Customer-Support-Agent
 
-A voice support agent for an online store. Customers can talk to it in the browser or call it on the phone. It uses a Postgres database for products, customers, addresses, payments, orders and support cases.
+A voice support agent for an online store. You can talk to it in the browser or call it on the phone. It uses a Postgres databse with products, customers, orders, payments and support cases.
 
-Main files:
-- src/tarang/schema.sql: the database tables, with foreign keys, checks, JSONB and indexes for fast search.
-- scripts/build_sql.py: builds the database and loads the data.
-
-During a call, the agent finds the customer by phone number and answers order questions from this database.
+When someone calls, it finds them by thier phone number and answers order questions from the database. The main database code is in src/tarang/schema.sql and scripts/build_sql.py
